@@ -1,0 +1,29 @@
+{
+  "name": "common-server",
+  "version": "1.0.0",
+  "description": "common server for multiple projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikileshambade/common-server.git"
+  },
+  "author": "Nikilesh Ambade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikileshambade/common-server/issues"
+  },
+  "homepage": "https://github.com/nikileshambade/common-server#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.0",
+    "mongoose": "^5.12.3",
+    "nodemon": "^2.0.7"
+  }
+}
